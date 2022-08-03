@@ -2,7 +2,7 @@
 <manifest>
   <project path="device/samsung/ms013g" remote="github" name="LineageOS/android_device_samsung_ms013g" revision="lineage-16.0" />
   <project path="device/samsung/ms01-common" remote="github" name="LineageOS/android_device_samsung_ms01-common" revision="lineage-16.0" />
-  <project path="device/samsung/msm8226-common" remote="github" name="LineageOS/android_device_samsung_msm8226-common" />
+  <project path="device/samsung/msm8226-common" remote="github" name="LineageOS/android_device_samsung_msm8226-common" revision="lineage-18.1"/>
   <project path="kernel/samsung/msm8226" remote="github" name="LineageOS/android_kernel_samsung_msm8226" />
   
   <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" />
