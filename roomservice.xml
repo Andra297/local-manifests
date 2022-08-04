@@ -3,7 +3,7 @@
   <project path="device/samsung/ms013g" remote="github" name="LineageOS/android_device_samsung_ms013g" revision="lineage-16.0" />
   <project path="device/samsung/ms01-common" remote="github" name="LineageOS/android_device_samsung_ms01-common" revision="lineage-16.0" />
   <project path="device/samsung/msm8226-common" remote="github" name="LineageOS/android_device_samsung_msm8226-common" revision="lineage-18.1"/>
-  <project path="kernel/samsung/msm8226" remote="github" name="LineageOS/android_kernel_samsung_msm8226" />
+  <project path="kernel/samsung/msm8226" remote="github" name="LineageOS/android_kernel_samsung_msm8226"  revision="lineage-18.1"/>
   
   <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" />
   
@@ -11,7 +11,7 @@
   <project path="device/asus/Z01H" name="Andra297/device-asus-Z01H" remote="github" />
   <project path="device/asus/msm8953" name="Andra297/android_device_asus_msm8953-common" remote="github" revision="oreo" />
   <project path="kernel/asus/msm8953" name="LineageOS/android_kernel_asus_msm8953" remote="github" revision="lineage-16.0" />
-  <project path="vendor/asus/Z01H" name="AndroidBlobs/vendor_asus_msm8953_64" remote="github" />
+  <project path="vendor/asus/Z01H" name="AndroidBlobs/vendor_asus_msm8953_64" remote="github" /revision="sm8953_64-user 9 WW_Phone-202001171115 58 release-keys">
   <project path="vendor/qcom/msm8996" name="Andra297/android_kernel_qcom_msm8996" remote="github" revision="lineage-18.1" />
 </manifest>
 
