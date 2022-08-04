@@ -14,6 +14,18 @@
   <project path="vendor/asus/Z01H" name="AndroidBlobs/vendor_asus_msm8953_64" remote="github" /revision="sm8953_64-user 9 WW_Phone-202001171115 58 release-keys">
   <project path="vendor/qcom/msm8996" name="Andra297/android_kernel_qcom_msm8996" remote="github" revision="lineage-18.1" />
     
+    
+    <remote fetch="git://github.com/" name="gh" /> 
+
+<!-- TWRP -->
+        <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="gh" revision="android-7.1" />
+	<project path="external/busybox" name="omnirom/android_external_busybox" clone-depth="1" remote="gh" revision="android-7.1" />
+
+<!-- LineageOS dependencies -->
+	<project path="external/stlport" name="LineageOS/android_external_stlport" revision="cm-14.1" />
+	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="cm-14.1" />
+
+<!-- M2 Note -->
     <project name="Moyster/android_kernel_m2note" path="kernel/meizu/m2note" remote="gh" revision="ng-7.1.2" />
         <project name="Moyster/android_vendor_meizu_m2note" path="vendor/meizu/m2note" remote="gh" revision="los-14.1" />
         <project name="Moyster/nougat_device_meizu_m2note" path="device/meizu/m2note" remote="gh" revision="los-14.1" />
